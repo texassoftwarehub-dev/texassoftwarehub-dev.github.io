@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["Y759459R98.com.iptvmax.IPTV-Max"],
+        "components": [
+          { "/": "/m/*", "comment": "A film" },
+          { "/": "/s/*", "comment": "A series" },
+          { "/": "/c/*", "comment": "A live channel" }
+        ]
+      }
+    ]
+  }
+}

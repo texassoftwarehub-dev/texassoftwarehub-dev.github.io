@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.iptvmax.android.tv",
+      "sha256_cert_fingerprints": [
+        "FE:50:BF:F4:08:ED:5F:B7:84:6C:8D:AB:08:1F:68:FB:57:92:34:54:6E:C8:FD:F9:C6:A2:FB:8F:3F:37:43:E9"
+      ]
+    }
+  }
+]

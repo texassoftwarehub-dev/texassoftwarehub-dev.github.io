@@ -1,0 +1,46 @@
+#EXTM3U
+# IPTVMax — App Review test playlist
+#
+# Openly licensed material only. The Blender Foundation open movies are CC-BY;
+# the HLS entries are public test streams published by their owners for exactly
+# this purpose. Nothing here is a provider's catalogue and nothing here needs
+# credentials.
+#
+# Shaped to fill all three tabs of the app, which is what makes it worth
+# reviewing with: entries whose URL contains /live/ are read as channels, names
+# in SxxExx form are read as episodes of a series, and everything else is a
+# film. See M3UParser.classify.
+#
+# Hosted at https://texassoftwarehub-dev.github.io/review.m3u (LinkSite/), the URL
+# in the App Review notes in AppStoreListing.md.
+
+#EXTINF:-1 tvg-id="sintel" tvg-logo="" group-title="Open Movies",Sintel (2010)
+https://download.blender.org/demo/movies/Sintel.2010.1080p.mkv
+#EXTINF:-1 tvg-id="sintel-trailer" tvg-logo="" group-title="Open Movies",Sintel Trailer
+https://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4
+#EXTINF:-1 tvg-id="elephants-dream" tvg-logo="" group-title="Open Movies",Elephants Dream (2006)
+https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
+#EXTINF:-1 tvg-id="big-buck-bunny" tvg-logo="" group-title="Open Movies",Big Buck Bunny (2008)
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+
+# A second category, so the Movies tab has more than one row to browse, and an
+# AVI — the point of a player that is not AVFoundation is that it opens these.
+#EXTINF:-1 tvg-id="elephants-dream-avi" tvg-logo="" group-title="Other Formats",Elephants Dream (AVI)
+https://download.blender.org/ED/ED_1024.avi
+#EXTINF:-1 tvg-id="sintel-surround" tvg-logo="" group-title="Other Formats",Sintel (5.1 Surround)
+https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4
+
+# Named in SxxExx form, which is what files them under Series rather than Movies.
+#EXTINF:-1 tvg-id="demo-s01e01" tvg-logo="" group-title="Demo Series",Open Movies S01E01 - Sintel
+https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4
+#EXTINF:-1 tvg-id="demo-s01e02" tvg-logo="" group-title="Demo Series",Open Movies S01E02 - Elephants Dream
+https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
+#EXTINF:-1 tvg-id="demo-s01e03" tvg-logo="" group-title="Demo Series",Open Movies S01E03 - Big Buck Bunny
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+
+# Live: the /live/ segment is what the parser reads, and these are continuous
+# HLS test streams published by Akamai and Unified Streaming.
+#EXTINF:-1 tvg-id="hls-test-1" tvg-logo="" group-title="Test Channels",HLS Test Channel 1
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 tvg-id="hls-test-2" tvg-logo="" group-title="Test Channels",HLS Test Channel 2
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8

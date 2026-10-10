@@ -3,9 +3,10 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.iptvmax.android.tv",
+      "package_name": "com.iptvmax.android",
       "sha256_cert_fingerprints": [
-        "FE:50:BF:F4:08:ED:5F:B7:84:6C:8D:AB:08:1F:68:FB:57:92:34:54:6E:C8:FD:F9:C6:A2:FB:8F:3F:37:43:E9"
+        "FE:50:BF:F4:08:ED:5F:B7:84:6C:8D:AB:08:1F:68:FB:57:92:34:54:6E:C8:FD:F9:C6:A2:FB:8F:3F:37:43:E9",
+        "57:06:19:9A:AC:42:26:3E:F0:F5:FE:A6:EE:8A:17:6F:E1:A4:4A:F9:B8:72:F8:D1:96:95:0A:66:52:FE:A2:2A"
       ]
     }
   }

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0b14">
+    <title>IPTVMax Support</title>
+    <meta name="description" content="Help with IPTVMax, the player for your own M3U playlists and Xtream logins, and how to reach us.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/link.css">
+    <style>
+        /* The support page reads as a page, not a card: wider, and left-aligned below the header. */
+        body { align-items:flex-start; padding-top:56px; padding-bottom:56px; }
+        main { max-width:640px; }
+        .lead { color:var(--dim); font-weight:700; line-height:1.5; margin:0 auto 24px; max-width:480px; }
+        .contact { max-width:420px; margin:0 auto; }
+        h2 { font-size:13px; font-weight:800; letter-spacing:.12em; text-transform:uppercase;
+             color:var(--accent2); text-align:left; margin:40px 0 12px; }
+        details { text-align:left; background:var(--card); border:1px solid var(--line);
+                  border-radius:16px; margin:10px 0; }
+        summary { cursor:pointer; list-style:none; padding:16px 48px 16px 18px; font-weight:800;
+                  font-size:16px; position:relative; }
+        summary::-webkit-details-marker { display:none; }
+        summary::after { content:"+"; position:absolute; right:18px; top:50%; transform:translateY(-50%);
+                         color:var(--accent2); font-size:22px; font-weight:700; transition:transform .2s ease; }
+        details[open] summary::after { transform:translateY(-50%) rotate(45deg); }
+        summary:focus-visible { outline:2px solid var(--accent2); outline-offset:2px; border-radius:16px; }
+        .answer { padding:0 18px 16px; color:var(--dim); font-weight:600; line-height:1.6; font-size:15px; }
+        .answer p { margin:0 0 10px; }
+        .answer p:last-child { margin-bottom:0; }
+        .answer b { color:var(--text); font-weight:800; }
+        .links { text-align:left; color:var(--dim); font-weight:700; line-height:1.9; }
+        .links a { color:var(--accent2); }
+        @media (prefers-reduced-motion: reduce) { summary::after { transition:none; } }
+    </style>
+</head>
+<body>
+<main>
+    <div class="tile" aria-hidden="true">📺</div>
+    <h1>IPTVMax Support</h1>
+    <p class="lead">IPTVMax plays the M3U playlists and Xtream logins you already have, on iPhone, iPad, Mac and Android TV.</p>
+
+    <div class="contact">
+        <a class="btn primary" href="mailto:vsgaurang@gmail.com?subject=IPTVMax%20support">Email support</a>
+        <p class="note">vsgaurang@gmail.com. Say which device you're on and what happened, and we'll get back to you.</p>
+    </div>
+
+    <h2>Common questions</h2>
+
+    <details>
+        <summary>Does IPTVMax come with channels or films?</summary>
+        <div class="answer">
+            <p>No. IPTVMax is a player, and it ships empty. It doesn't supply, sell or search for any channels, films or streams. You add a playlist you already have, from your provider or your own files, and it plays what's in it.</p>
+            <p>Only add sources you have the right to watch.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I add a playlist?</summary>
+        <div class="answer">
+            <p>Tap <b>Add Playlist</b> and choose how it comes:</p>
+            <p><b>M3U URL</b> for a playlist link, <b>M3U File</b> for a file on your device, or <b>Xtream Codes</b> for a server address, username and password from your provider.</p>
+            <p>A large playlist can take a minute to import. You can watch a single stream or a video file without importing anything, from <b>Single Stream</b> and <b>Local Video</b> on the same screen.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>A channel or film won't play</summary>
+        <div class="answer">
+            <p>Streams come straight from your provider, so most playback problems start there. Check that the same channel plays in another app or on another device, and that your subscription is active.</p>
+            <p>Providers often limit how many devices can watch at once. Stop playback on your other devices and try again.</p>
+            <p>If it plays elsewhere but not in IPTVMax, email us the kind of stream it is (live, film or series) and what the player shows.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>The import failed</summary>
+        <div class="answer">
+            <p>Check the address for typos, and for Xtream Codes include the port if your provider gave you one (for example <b>http://example.com:8080</b>).</p>
+            <p>Some providers block requests from apps they don't recognise, or the link may have expired. Try opening the playlist link in a browser: if it doesn't download there, ask your provider for a new one.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I move my playlists to another device?</summary>
+        <div class="answer">
+            <p>Open IPTVMax on both devices, on the same Wi-Fi. In the Library, use <b>Sync across your devices</b>: <b>Send to TV</b> for IPTVMax on Android TV, or <b>Send to iPhone, iPad or Mac</b>. Accept on the other device and the playlist is set up there.</p>
+            <p>Setting up a new device? Just open IPTVMax on it. Then, on the device that already has your playlists, choose <b>Sync with Other Device</b> (in the Library, or in Settings under Sync) and pick the new one.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>Can I use my iPhone as a remote for the TV?</summary>
+        <div class="answer">
+            <p>Yes, with IPTVMax on an Android TV on the same network. The iPhone app finds the TV and works as a remote and keyboard, which makes searching and typing logins much quicker.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>How do I keep it safe for children?</summary>
+        <div class="answer">
+            <p>In Settings: <b>Child Mode</b> limits watching to the categories you choose, behind a PIN. <b>Hide 18+ Content</b> hides adult categories, and <b>App PIN Lock</b> asks for a PIN (or Face ID or Touch ID) to open the app.</p>
+        </div>
+    </details>
+
+    <details>
+        <summary>What happens to my data?</summary>
+        <div class="answer">
+            <p>There's no account and no tracking. Your playlists, logins and history stay on your device, and your logins go only to the provider they belong to. The privacy policy has the details.</p>
+        </div>
+    </details>
+
+    <h2>More</h2>
+    <div class="links">
+        <a href="https://gist.github.com/texassoftwarehub-dev/5f5b80a4fe47230797c0618dc91d1285#file-privacypolicy-apple-md">Privacy policy (iPhone, iPad and Mac)</a><br>
+        <a href="https://gist.github.com/texassoftwarehub-dev/5f5b80a4fe47230797c0618dc91d1285">Privacy policy (Android TV)</a>
+    </div>
+
+    <div class="brand">IPTVMax</div>
+</main>
+</body>
+</html>

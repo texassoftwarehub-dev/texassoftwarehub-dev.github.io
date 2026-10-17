@@ -11,5 +11,7 @@ Pages on a free plan). The source lives here, in IPTVMaxNative's `LinkSite/`; se
 - `m/`, `s/`, `c/` — the same page (`page.template.html`, copied); `link.js` fills it from the
   link. After editing the template: `for k in m s c; do cp page.template.html $k/index.html; done`.
 - Store buttons: set `APP_STORE_URL` / `PLAY_STORE_URL` at the top of `link.js`.
-- `support/` — the support page, linked as the App Store's Support URL
-  (https://texassoftwarehub-dev.github.io/support/). Uses `link.css` plus its own styles.
+- `iptvmax/support/` — the support page, linked as the App Store's Support URL
+  (https://texassoftwarehub-dev.github.io/iptvmax/support/). Uses `/link.css` plus its own styles.
+  The site is shared with other projects, so each keeps its pages under its own folder.
+- `support/` — a redirect to `iptvmax/support/`, for the address used before 2026-10-17.
